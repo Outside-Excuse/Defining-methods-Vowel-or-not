@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class Main {
+  
+    public static boolean isVowel(char ch) {
+      boolean m = false;
+  if (ch == 'a'){
+    m = true;
+  }
+  else if (ch == 'e'){
+    m = true;
+  }
+   else if (ch == 'i'){
+    m = true;
+  }
+   else if (ch == 'o'){
+    m = true;
+  }
+  else if (ch == 'u'){
+    m = true;
+  }
+  
+      else if (ch == 'A'){
+    m = true;
+  }
+     else if (ch == 'E'){
+    m = true;
+  }
+  else   if (ch == 'I'){
+    m = true;
+  }
+    else if (ch == 'O'){
+    m = true;
+  }
+    else if (ch == 'U'){
+    m = true;
+  }
+      return m;  
+        // write your code here
+    }
+
+    /* Do not change code below */
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        char letter = scanner.nextLine().charAt(0);
+        System.out.println(isVowel(letter) ? "YES" : "NO");
+    }
+}
